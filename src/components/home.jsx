@@ -27,12 +27,12 @@ const Home = () => {
        
       </div>
       <div className="flex flex-row gap-4 mt-[108px] ">
-        <div className="w-[50%] mt-[44px] box-border">
+        <div className="w-[50%] my-[44px] box-border">
           <div>
-            <h2 className="text-Raleway my-[20px] text-2xl leading-5 font-bold text-[#FFFFFF]">
+            <h2 className="text-Helvetica my-[20px] text-3xl leading-5 font-bold text-[#FFFFFF]">
               Oluwatade Iyanuoluwa
             </h2>
-            <p className='my-[10px]'>
+            <p className='my-[30px]'>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
               accusantium velit amet perspiciatis earum officia est dolorem
               deleniti fugiat perferendis ipsum veniam, dicta, unde numquam,
@@ -40,19 +40,37 @@ const Home = () => {
             </p>
           </div>
 
-          <div className="bg-[#3F8E00] cursor-pointer w-[30%] px-3 py-2 text-[#FFFFFF] border-solid rounded-sm ">
+          <div className="bg-[#3F8E00]  cursor-pointer w-[30%] px-3 py-3 text-[#FFFFFF] border-solid rounded-sm ">
             Let's get started
           </div>
         </div>
         <div className=" flex flex-col justify-center w-[50%] items-center">
-          <img className='rounded-[50%] w-[18rem] h-[18rem]' src={display}/>
+          <img className='rounded-[50%] w-[16rem] h-[16rem]' src={display}/>
            
             <div className='flex flex-row gap-3 mt-[20px]'>
-                <GitHubIcon className="cursor-pointer hover:text-[#3F8E00] transition duration-300" />
-                <XIcon className="cursor-pointer hover:text-[#3F8E00] transition duration-300" />
-                <RedditIcon className="cursor-pointer hover:text-[#3F8E00] transition duration-300" />
+              <a href=''>
+                 <GitHubIcon className="cursor-pointer hover:text-[#3F8E00] transition duration-300" />
+              </a>
+              <a href=''>
+                  <XIcon className="cursor-pointer hover:text-[#3F8E00] transition duration-300" />
+              </a>
+              <a href=''>
+                 <RedditIcon className="cursor-pointer hover:text-[#3F8E00] transition duration-300" />
+                 
+              </a>
+              <a href=''>
                 <EmailIcon className="cursor-pointer hover:text-[#3F8E00] transition duration-300" />
+                 
+              </a>
+              <a href=''>
                 <LinkedInIcon className="cursor-pointer hover:text-[#3F8E00] transition duration-300" />
+                 
+              </a>
+                
+               
+               
+                
+                
             </div>
         </div>
             
